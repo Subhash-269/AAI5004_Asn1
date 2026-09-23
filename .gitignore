@@ -1,0 +1,39 @@
+# ----- LaTeX report (source and output) -----
+*.tex
+*.pdf
+*.bib
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# ----- LaTeX build artifacts -----
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+
+# ----- Figures exported by the notebook (regenerated on every run) -----
+figures/
+
+# ----- Python / Jupyter -----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ----- OS / editor -----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
